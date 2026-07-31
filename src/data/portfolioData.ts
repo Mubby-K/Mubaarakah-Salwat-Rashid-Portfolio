@@ -10,7 +10,7 @@ export const HERO_DATA = {
   phone: '+233 55 843 3835',
   github: 'https://github.com/Mubby-K',
   linkedin: 'https://www.linkedin.com/in/mubaarakah-salwat-rashid-441b21170',
-  portraitImage: '/src/assets/images/mubaarakah_portrait_1784831283674.jpg',
+  portraitImage: '/src/assets/images/profile.jpeg',
 };
 
 export const ROLES_DATA: Role[] = [
