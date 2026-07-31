@@ -1,0 +1,34 @@
+{
+  "entities": {
+    "contact_inquiries": {
+      "title": "Contact Inquiries",
+      "description": "Messages sent from the website contact form",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "name",
+        "email",
+        "subject",
+        "message",
+        "createdAt"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Warm Organic Custom Theme Palette Helpers */
+.bg-warm-linen {
+  background-color: #F8F5F2;
+}
+
+.bg-warm-beige {
+  background-color: #EFEDE8;
+}
+
+.bg-warm-sand {
+  background-color: #F5F2ED;
+}
+
+.bg-olive {
+  background-color: #5A5A40;
+}
+
+.text-olive {
+  color: #5A5A40;
+}
+
+.border-clay {
+  border-color: #D6CCC2;
+}
+
+.border-clay-subtle {
+  border-color: #E6DFD5;
+}
+
+.glass-organic {
+  background: rgba(248, 245, 242, 0.85);
+  backdrop-filter: blur(12px);
+}
+
